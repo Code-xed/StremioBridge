@@ -148,7 +148,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // View log history
+        // View log history (idle screen)
+        binding.btnViewLogsIdle.setOnClickListener {
+            showLogList()
+        }
+
+        // View log history (intent dump screen)
         binding.btnViewLogs.setOnClickListener {
             showLogList()
         }
