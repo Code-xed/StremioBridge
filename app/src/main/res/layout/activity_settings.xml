@@ -78,7 +78,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Skip debug screen, forward immediately"
                                 android:textSize="12sp"
-                                android:textColor="?attr/colorOnSurfaceVariant" />
+                                android:textColor="@android:color/secondary_text_dark" />
                         </LinearLayout>
 
                         <com.google.android.material.switchmaterial.SwitchMaterial
@@ -92,7 +92,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginVertical="12dp"
-                        android:background="?attr/colorOutlineVariant" />
+                        android:background="#FFDDDDDD" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -117,7 +117,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Save received intents to app storage"
                                 android:textSize="12sp"
-                                android:textColor="?attr/colorOnSurfaceVariant" />
+                                android:textColor="@android:color/secondary_text_dark" />
                         </LinearLayout>
 
                         <com.google.android.material.switchmaterial.SwitchMaterial

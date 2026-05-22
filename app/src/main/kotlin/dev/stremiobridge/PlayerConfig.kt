@@ -3,7 +3,6 @@ package dev.stremiobridge
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.net.Uri
 
 /**
  * Known external players with their package names and intent construction logic.
@@ -87,19 +86,6 @@ object PlayerRouter {
                 putExtra("headers", headerBundle)
             }
         }
-    }
-
-    /**
-     * Future: route based on content type / codec hints.
-     * Called when smart routing is enabled.
-     */
-    fun smartRoute(intentData: IntentData, context: Context): Player {
-        // TODO: implement smart routing rules:
-        // - Detect EAC3/DTS from URL or metadata → Just Player
-        // - Detect Dolby Vision (DoVi) → VLC
-        // - Detect anime (by IMDB genre or title heuristic) → mpv
-        // For now, fall back to user preference
-        return getDefaultPlayer(context)
     }
 
     /** Get user's preferred default player from SharedPreferences */

@@ -45,7 +45,7 @@
             android:text="Stremio Bridge"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="?attr/colorOnSurface" />
+            android:textColor="?attr/colorOnBackground" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_marginTop="8dp"
             android:text="Waiting for a video intent from Stremio..."
             android:textAlignment="center"
-            android:textColor="?attr/colorOnSurfaceVariant" />
+            android:textColor="@android:color/secondary_text_dark" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
             android:text="Setup: Stremio → Settings → Player → External Player → Select this app"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:textColor="?attr/colorOnSurfaceVariant" />
+            android:textColor="@android:color/secondary_text_dark" />
 
         <Button
             android:id="@+id/btn_settings"
@@ -134,14 +134,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="13sp"
-                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textColor="@android:color/secondary_text_dark"
                         tools:text="Breaking Bad S01E01 – Pilot" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginVertical="8dp"
-                        android:background="?attr/colorOutlineVariant" />
+                        android:background="#FFDDDDDD" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
                         android:text="Stream URL"
                         android:textSize="11sp"
                         android:textStyle="bold"
-                        android:textColor="?attr/colorOnSurfaceVariant" />
+                        android:textColor="@android:color/secondary_text_dark" />
                     <TextView
                         android:id="@+id/tv_stream_url"
                         android:layout_width="match_parent"
@@ -166,7 +166,7 @@
                         android:text="MIME Type"
                         android:textSize="11sp"
                         android:textStyle="bold"
-                        android:textColor="?attr/colorOnSurfaceVariant" />
+                        android:textColor="@android:color/secondary_text_dark" />
                     <TextView
                         android:id="@+id/tv_mime_type"
                         android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                                 android:text="Position"
                                 android:textSize="11sp"
                                 android:textStyle="bold"
-                                android:textColor="?attr/colorOnSurfaceVariant" />
+                                android:textColor="@android:color/secondary_text_dark" />
                             <TextView
                                 android:id="@+id/tv_position"
                                 android:layout_width="wrap_content"
@@ -212,7 +212,7 @@
                                 android:text="IMDB ID"
                                 android:textSize="11sp"
                                 android:textStyle="bold"
-                                android:textColor="?attr/colorOnSurfaceVariant" />
+                                android:textColor="@android:color/secondary_text_dark" />
                             <TextView
                                 android:id="@+id/tv_imdb_id"
                                 android:layout_width="wrap_content"
@@ -229,7 +229,7 @@
                         android:text="Subtitle URL"
                         android:textSize="11sp"
                         android:textStyle="bold"
-                        android:textColor="?attr/colorOnSurfaceVariant" />
+                        android:textColor="@android:color/secondary_text_dark" />
                     <TextView
                         android:id="@+id/tv_subtitle"
                         android:layout_width="match_parent"
@@ -268,7 +268,7 @@
                             android:layout_weight="1"
                             android:text="Forward to:"
                             android:textSize="13sp"
-                            android:textColor="?attr/colorOnSurfaceVariant" />
+                            android:textColor="@android:color/secondary_text_dark" />
 
                         <TextView
                             android:id="@+id/tv_selected_player"
