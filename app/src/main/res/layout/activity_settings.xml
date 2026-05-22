@@ -203,7 +203,7 @@
 
                         <Button
                             android:id="@+id/btn_install_just_player"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -211,7 +211,7 @@
 
                         <Button
                             android:id="@+id/btn_install_mpv"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -219,7 +219,7 @@
 
                         <Button
                             android:id="@+id/btn_install_vlc"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"

@@ -75,7 +75,7 @@
 
         <Button
             android:id="@+id/btn_view_logs_idle"
-            style="@style/Widget.Material3.Button.TextButton"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -279,7 +279,7 @@
 
                         <Button
                             android:id="@+id/btn_change_player"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Change" />
@@ -300,7 +300,7 @@
 
                         <Button
                             android:id="@+id/btn_copy_dump"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -308,7 +308,7 @@
 
                         <Button
                             android:id="@+id/btn_share_dump"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -316,7 +316,7 @@
 
                         <Button
                             android:id="@+id/btn_view_logs"
-                            style="@style/Widget.Material3.Button.TextButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
